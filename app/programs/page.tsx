@@ -47,7 +47,7 @@ export default function ProgramsPage() {
               TRAINING PROGRAMS // TRAINING PROGRAMS // TRAINING PROGRAMS //
             </div>
             <div className="font-heading text-[12vw] leading-none whitespace-nowrap text-white" style={{ transform: "translateX(-15%)" }}>
-              DEZONE ELITE // DEZONE ELITE // DEZONE ELITE // DEZONE ELITE //
+              FITNESS ELITE // FITNESS ELITE // FITNESS ELITE // FITNESS ELITE //
             </div>
           </div>
 

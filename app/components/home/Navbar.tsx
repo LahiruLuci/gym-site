@@ -33,7 +33,7 @@ export default function Navbar({ isScrolled, isMenuOpen, setIsMenuOpen }: Navbar
           <div className="relative w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-1">
             <Image
               src="/assets/dezone-logo.png"
-              alt="DeZone Logo"
+              alt="Fitness Logo"
               width={80}
               height={80}
               className="object-contain drop-shadow-2xl"

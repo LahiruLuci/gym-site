@@ -11,7 +11,7 @@ const GALLERY_ITEMS = [
   {
     type: "image" as const,
     src:  "/assets/gym-environment.webp",
-    alt:  "DeZone gym interior — premium equipment floor",
+    alt:  "Fitness gym interior — premium equipment floor",
     label: "The Environment",
     span:  "lg:col-span-2 lg:row-span-2", // Hero tile — large
   },
@@ -25,7 +25,7 @@ const GALLERY_ITEMS = [
   {
     type: "video" as const,
     src:  "/assets/home-page-hero-slider-3.webp", // poster frame
-    alt:  "DeZone gym walkthrough — feel the atmosphere",
+    alt:  "Fitness gym walkthrough — feel the atmosphere",
     label: "Gym Walkthrough",
     span:  "",
   },
@@ -95,7 +95,7 @@ function Lightbox({ item, onClose }: { item: typeof GALLERY_ITEMS[0]; onClose: (
 
         {/* Caption bar */}
         <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black via-black/50 to-transparent z-10 pointer-events-none">
-          <span className="font-accent text-primary text-[10px] uppercase tracking-[0.3em] block mb-1">DeZone Fitness</span>
+          <span className="font-accent text-primary text-[10px] uppercase tracking-[0.3em] block mb-1">Fitness Gym</span>
           <p className="font-heading text-white text-2xl uppercase tracking-widest">{item.label}</p>
         </div>
       </div>
@@ -194,7 +194,7 @@ function GalleryTile({
         <div className="flex items-end justify-between">
           <div>
             <span className="font-accent text-primary text-[9px] uppercase tracking-[0.3em] block mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-400 delay-75">
-              {item.type === "video" ? "▶ Play Video" : "DeZone"}
+              {item.type === "video" ? "▶ Play Video" : "Fitness"}
             </span>
             <h4 className="font-heading text-white text-xl md:text-2xl uppercase tracking-wide leading-none">
               {item.label}

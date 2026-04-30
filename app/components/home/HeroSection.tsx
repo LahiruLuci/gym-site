@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { IMAGES } from "@/app/lib/data";
 
 interface HeroSectionProps {
@@ -33,11 +34,14 @@ export default function HeroSection({ currentImage, setCurrentImage }: HeroSecti
           Train Hard.<br />Have Fun.<br />Make Friends.
         </h1>
         <p className="font-body text-white text-base md:text-lg mb-12 max-w-xl leading-relaxed opacity-90">
-          Welcome to DeZone Fitness, located within 5 minutes of the Tustin/Irvine Marketplace and 5 minutes from the Tustin District!
+          Welcome to Fitness Gym, located within 5 minutes of the Tustin/Irvine Marketplace and 5 minutes from the Tustin District!
         </p>
-        <button className="px-10 py-5 bg-primary text-white font-body text-sm md:text-base font-bold uppercase tracking-widest hover:bg-primary-hover hover:scale-105 transition-all duration-300 shadow-2xl shadow-primary/20">
+        <Link 
+          href="/join"
+          className="inline-block px-10 py-5 bg-primary text-white font-body text-sm md:text-base font-bold uppercase tracking-widest hover:bg-white hover:text-primary hover:scale-105 transition-all duration-300 shadow-[0_0_20px_rgba(255,45,45,0.4)] hover:shadow-[0_0_40px_rgba(255,45,45,0.6)] cursor-pointer"
+        >
           Book Free Intro
-        </button>
+        </Link>
       </div>
 
       {/* Slide Dots */}

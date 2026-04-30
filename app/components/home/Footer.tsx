@@ -27,7 +27,7 @@ export default function Footer() {
           {/* 1. Brand Info & Social Links */}
           <div className="flex flex-col text-center md:text-left">
             <div className="font-heading text-4xl text-white uppercase tracking-widest mb-4 inline-block">
-              De<span className="text-primary">Zone</span>
+              Fitness <span className="text-primary">Gym</span>
             </div>
             <p className="font-body text-white/60 text-sm leading-relaxed mb-8 max-w-xs mx-auto md:mx-0">
               Train hard. Stay strong. Transform your life. Elite coaching and real results for those who refuse to settle.
@@ -124,7 +124,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="font-body text-white/40 text-xs">
-            © {new Date().getFullYear()} DeZone Fitness. All rights reserved.
+            © {new Date().getFullYear()} Fitness Gym. All rights reserved.
           </p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Service"].map((l) => (

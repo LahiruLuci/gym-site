@@ -38,7 +38,7 @@ const TRANSFORMATIONS = [
 
 const QUOTES = [
   {
-    quote: "I never thought I could achieve this level of fitness. The trainers at DeZone pushed me beyond what I thought was possible. I'm a completely different person.",
+    quote: "I never thought I could achieve this level of fitness. The trainers at Fitness Gym pushed me beyond what I thought was possible. I'm a completely different person.",
     name: "Nadeesha K.",
     context: "Lost 8kg · Gained confidence",
     stars: 5,
@@ -52,7 +52,7 @@ const QUOTES = [
     img: "/assets/men-1-trasform.png",
   },
   {
-    quote: "As a working professional, I needed efficiency. DeZone's elite program delivered more results in 3 months than 2 years at other gyms.",
+    quote: "As a working professional, I needed efficiency. Fitness Gym's elite program delivered more results in 3 months than 2 years at other gyms.",
     name: "Dante R.",
     context: "20kg lost · Full body recomp",
     stars: 5,

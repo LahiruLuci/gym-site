@@ -35,9 +35,9 @@ export const TRAINERS = [
 ];
 
 export const TESTIMONIALS = [
-  { quote: "I lost 18kg in 4 months. The trainers at DeZone are next level — they pushed me further than I ever pushed myself.", name: "RAYAN K.", tag: "Lost 18kg in 4 months",    stars: 5, img: IMAGES[0] },
+  { quote: "I lost 18kg in 4 months. The trainers at Fitness Gym are next level — they pushed me further than I ever pushed myself.", name: "RAYAN K.", tag: "Lost 18kg in 4 months",    stars: 5, img: IMAGES[0] },
   { quote: "Never thought I'd enjoy the gym. The community here changed everything. First real transformation in my life.",        name: "PRIYA S.", tag: "First-time gym member",    stars: 5, img: IMAGES[1] },
-  { quote: "Competed in my first bodybuilding show after 8 months with DeZone. The coaching here is elite-level.",                name: "DANTE M.", tag: "Competitive Bodybuilder", stars: 5, img: IMAGES[2] },
+  { quote: "Competed in my first bodybuilding show after 8 months with Fitness Gym. The coaching here is elite-level.",                name: "DANTE M.", tag: "Competitive Bodybuilder", stars: 5, img: IMAGES[2] },
 ];
 
 export const PRICING_PLANS = [

@@ -36,7 +36,7 @@ export default function JoinPage() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/assets/gym-environment.webp" 
-            alt="DeZone Gym Environment" 
+            alt="Fitness Gym Environment" 
             fill 
             className="object-cover grayscale brightness-50"
             priority

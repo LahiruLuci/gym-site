@@ -70,7 +70,7 @@ export default function AboutPage() {
 
                 {/* Body */}
                 <p className="font-body text-white/60 text-lg leading-relaxed mb-10 max-w-md border-l-2 border-white/20 pl-6">
-                  We looked at the standard fitness industry and saw complacency. Crowded floors, uninspired coaching, and average results. DeZone was forged to be the absolute opposite.
+                  We looked at the standard fitness industry and saw complacency. Crowded floors, uninspired coaching, and average results. Fitness Gym was forged to be the absolute opposite.
                 </p>
 
                 {/* Stats Row */}
@@ -96,7 +96,7 @@ export default function AboutPage() {
                 <div className="absolute top-[5%] right-[10%] w-[80%] h-[90%] overflow-hidden border border-white/10 shadow-[0_0_80px_-20px_rgba(255,45,45,0.3)] z-10 group">
                   <Image 
                     src={IMAGES[2]} 
-                    alt="DeZone Arena" 
+                    alt="Fitness Arena" 
                     fill 
                     className="object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)]" 
                     priority 

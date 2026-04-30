@@ -59,11 +59,11 @@ export default function PageLoader() {
           {/* Intense Core Glow */}
           <div className="absolute w-[150px] h-[150px] bg-primary/30 blur-[50px] rounded-full animate-pulse" />
 
-          {/* DeZone Logo */}
+          {/* Fitness Logo */}
           <div className="relative w-[180px] h-[60px] md:w-[220px] md:h-[70px] z-10">
             <Image 
               src="/assets/dezone-logo.png" 
-              alt="DeZone Loading" 
+              alt="Fitness Loading" 
               fill 
               className="object-contain drop-shadow-[0_0_20px_rgba(255,45,45,0.8)]" 
               priority

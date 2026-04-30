@@ -19,7 +19,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "DeZone Gym - Unleash Your Power",
+  title: "Fitness Gym - Unleash Your Power",
   description: "High-performance fitness and strength training.",
 };
 

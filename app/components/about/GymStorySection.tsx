@@ -56,7 +56,7 @@ export default function GymStorySection() {
                 </div>
                 <div>
                   <p className="font-body text-white text-[11px] font-bold uppercase tracking-widest">Founder & Head Coach</p>
-                  <p className="font-accent text-primary text-[9px] uppercase tracking-[0.2em] mt-1">DeZone Elite</p>
+                  <p className="font-accent text-primary text-[9px] uppercase tracking-[0.2em] mt-1">Fitness Elite</p>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function GymStorySection() {
                <p className="font-accent text-primary text-[10px] uppercase tracking-[0.3em] mb-4">Phase 03 // The Mission</p>
                <h3 className="font-heading text-4xl md:text-5xl text-white uppercase tracking-wider mb-6 group-hover/block:text-primary transition-colors duration-500">Forging The Arena</h3>
                <p className="font-body text-white/50 text-lg leading-relaxed mb-8">
-                 That’s why we built DeZone. We engineered a space focused entirely on real transformation, discipline, and unbreakable consistency. No gimmicks, no shortcuts. Just an environment where excuses die and results are forged.
+                 That’s why we built Fitness Gym. We engineered a space focused entirely on real transformation, discipline, and unbreakable consistency. No gimmicks, no shortcuts. Just an environment where excuses die and results are forged.
                </p>
                
                {/* Timeline Highlights */}
