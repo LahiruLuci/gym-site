@@ -13,8 +13,8 @@ const TRANSFORMATIONS = [
     time: "90 Day Transformation",
     program: "Fat Loss Program",
     trainer: "Sarah Jen",
-    beforeImg: IMAGES[3], // treated as "before" (grayscale filter applied in CSS)
-    afterImg: IMAGES[1],  // treated as "after"  (full color)
+    beforeImg: "/assets/men-1.webp",
+    afterImg: "/assets/men-1-trasform.png",
   },
   {
     name: "Priya M.",
@@ -22,8 +22,8 @@ const TRANSFORMATIONS = [
     time: "6 Month Journey",
     program: "Strength Training",
     trainer: "John Silva",
-    beforeImg: IMAGES[0],
-    afterImg: IMAGES[2],
+    beforeImg: "/assets/girl-1.webp",
+    afterImg: "/assets/girl-1-trasform.png",
   },
   {
     name: "Dante R.",
@@ -31,8 +31,8 @@ const TRANSFORMATIONS = [
     time: "8 Month Transformation",
     program: "Athlete Performance",
     trainer: "Mike Ty",
-    beforeImg: IMAGES[3],
-    afterImg: IMAGES[0],
+    beforeImg: "/assets/men-2.webp",
+    afterImg: "/assets/men-2-trasform.png",
   },
 ];
 
@@ -42,21 +42,21 @@ const QUOTES = [
     name: "Nadeesha K.",
     context: "Lost 8kg · Gained confidence",
     stars: 5,
-    img: IMAGES[3],
+    img: "/assets/girl-1-trasform.png",
   },
   {
     quote: "Starting at zero fitness, the team built me up week by week. The community here is electric. I look forward to every single session now.",
     name: "Rayan F.",
     context: "Beginner → 5K runner in 10 weeks",
     stars: 5,
-    img: IMAGES[0],
+    img: "/assets/men-1-trasform.png",
   },
   {
     quote: "As a working professional, I needed efficiency. DeZone's elite program delivered more results in 3 months than 2 years at other gyms.",
-    name: "Amaya S.",
-    context: "15kg lost · Full body recomp",
+    name: "Dante R.",
+    context: "20kg lost · Full body recomp",
     stars: 5,
-    img: IMAGES[1],
+    img: "/assets/men-2-trasform.png",
   },
 ];
 

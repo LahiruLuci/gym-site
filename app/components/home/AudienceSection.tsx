@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { Dispatch, SetStateAction } from "react";
 import { AUDIENCES } from "@/app/lib/data";
 
@@ -86,9 +87,12 @@ export default function AudienceSection({
                   <div className="overflow-hidden">
                     <p className="text-white font-bold text-sm uppercase tracking-widest mb-4">{audience.hook}</p>
                     <p className="text-white/80 text-base mb-8 max-w-xs">{audience.desc}</p>
-                    <button className="px-6 py-3 bg-white text-primary font-bold text-xs uppercase tracking-widest hover:bg-primary hover:text-white transition-all shadow-xl shadow-black/50">
+                    <Link 
+                      href="/join"
+                      className="inline-block px-6 py-3 bg-white text-primary font-bold text-xs uppercase tracking-widest hover:bg-primary hover:text-white transition-all shadow-xl shadow-black/50 cursor-pointer text-center"
+                    >
                       {audience.cta}
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -113,7 +117,12 @@ export default function AudienceSection({
                   <h3 className="font-heading text-6xl uppercase text-white mb-2">{audience.title}</h3>
                   <p className="text-primary font-bold text-sm uppercase tracking-widest mb-4">{audience.hook}</p>
                   <p className="text-white/70 text-base mb-8">{audience.desc}</p>
-                  <button className="w-full py-4 bg-primary text-white font-bold text-xs uppercase tracking-widest">{audience.cta}</button>
+                  <Link 
+                    href="/join"
+                    className="block w-full py-4 bg-primary text-white font-bold text-xs uppercase tracking-widest cursor-pointer hover:bg-white hover:text-primary transition-colors text-center"
+                  >
+                    {audience.cta}
+                  </Link>
                 </div>
               </div>
             ))}
